@@ -2,8 +2,15 @@
 
 Class App {
     
-    function __construct(){
-        echo "holla babe";
+    public function __construct(){
+        $url = $this->splitURL();
+        show($url);
+    }
+
+    private function splitURL(){
+
+        return explode("/", $_GET["url"]);
+
     }
 
 
