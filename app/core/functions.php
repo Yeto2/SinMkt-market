@@ -6,5 +6,4 @@ function show($stuff){
     echo "</pre>";
 }
 
-
 ?>
