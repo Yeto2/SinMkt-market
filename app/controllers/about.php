@@ -3,7 +3,9 @@
 class About extends Controller{
     
     function index(){
-        $this-> view("about");
+
+        $data["page_tittle"] = "About";
+        $this-> view("about" , $data);
     }
 
 }

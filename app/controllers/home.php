@@ -3,10 +3,21 @@
 class Home extends Controller{
     
     function index(){
+    
+        $data["page_tittle"] = "Home";
 
-        $image_class = $this->loadModel('image_class');
-        $this-> view("home");
+        $this-> view("home" , $data);
     }
 }
 
 ?>
+
+
+<!----- to run image corp class ----->
+
+        <!-- $image_class = $this->loadModel('image_class'); -->
+        
+<!-------- to display data from database ---->
+
+    <!-- $DB = new Database();
+         show($DB->read("select * from images")); -->
