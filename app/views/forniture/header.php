@@ -140,10 +140,10 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li ><a href="index.html">home</a></li>
-				                    <li ><a href="newarrivel.html">new arrival</a></li>
-				                    <li ><a href="features.html">features</a></li>
-				                    <li ><a href="blog.html">about us</a></li>
+				                    <li ><a href="index">home</a></li>
+				                    <li ><a href="arrival">new arrival</a></li>
+				                    <li ><a href="features">features</a></li>
+				                    <li ><a href="about">about us</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->

@@ -1,6 +1,6 @@
 <?php
 
-class Feature extends Controller{
+class Features extends Controller{
     
     function index(){
     
