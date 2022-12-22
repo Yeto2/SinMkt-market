@@ -10,7 +10,7 @@
 						<a href="#"><i class="fa fa-behance"></i></a>	
 					</div>
 					<p>
-						&copy;copyright. designed and developed by <a href="#">majidi</a>
+						&copy;copyright. designed and developed by <a href="github/yeto2">Yeto2</a>
 					</p><!--/p-->
 				</div><!--/.text-center-->
 			</div><!--/.container-->

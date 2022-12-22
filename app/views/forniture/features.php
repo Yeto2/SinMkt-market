@@ -50,7 +50,7 @@
 					<div class="row">
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f1.jpg" alt="features 1">
+								<img src="<?=ASSETS?>images/features/f1.jpg" alt="features 1">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -67,7 +67,7 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f2.jpg" alt="feature image">
+								<img src="<?=ASSETS?>images/features/f2.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -84,7 +84,7 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f3.jpg" alt="feature image">
+								<img src="<?=ASSETS?>images/features/f3.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -101,7 +101,7 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f4.jpg" alt="feature image">
+								<img src="<?=ASSETS?>images/features/f4.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>

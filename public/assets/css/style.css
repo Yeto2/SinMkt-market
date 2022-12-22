@@ -97,6 +97,7 @@ html,body{height: 100%;}
 .section-header{
     position: relative;
     text-align: center;
+    margin-top: 40px;
 }
 .section-header h2{
     font-size: 30px;
