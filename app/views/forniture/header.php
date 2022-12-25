@@ -144,6 +144,7 @@
 				                    <li ><a href="<?=ROOT?>arrival">new arrival</a></li>
 				                    <li ><a href="<?=ROOT?>features">features</a></li>
 				                    <li ><a href="<?=ROOT?>about">about us</a></li>
+				                    <li ><a href="<?=ROOT?>login">Login</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
