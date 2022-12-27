@@ -47,7 +47,8 @@ body{
 .form input,textarea{
     border: 2px solid #e99c2e; 
     border-radius: 10px;
-    
+    width: 260px;
+    padding-top: 8px;
 }
 .form input{
     height: 60px;
