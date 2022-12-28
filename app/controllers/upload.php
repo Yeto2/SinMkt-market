@@ -4,17 +4,22 @@ class Upload extends Controller{
     
     function index(){
     
-        $data["page_tittle"] = "Upload | Furniture";
-
-        $this-> view("forniture/upload" , $data);
+        header("Location:" . ROOT . "upload/product");
+        die;
     }
 
-    function Product(){
-    
-    $data["page_tittle"] = "Upload | Furniture";
 
-    $this-> view("forniture/upload" , $data);
-}
+
+    function product(){
+
+        $user = $this->loadModel("user");
+        if(!$result = $user->check_login()){
+            header("Location:" . ROOT . "login");
+            die;
+        }
+        $data["page_tittle"] = "Upload | Furniture";
+        $this-> view("forniture/upload" , $data);
+    }
 
 }
 ?>

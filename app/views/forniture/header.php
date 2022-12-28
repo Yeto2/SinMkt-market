@@ -142,12 +142,13 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li ><a href="<?=ROOT?>index">home</a></li>
-				                    <li ><a href="<?=ROOT?>arrival">new arrival</a></li>
-				                    <li ><a href="<?=ROOT?>features">features</a></li>
-				                    <li ><a href="<?=ROOT?>about">about us</a></li>
-				                    <li ><a href="<?=ROOT?>signUp">sign Up</a></li>
+				                    <li ><a href="<?=ROOT?>index">Home</a></li>
+				                    <li ><a href="<?=ROOT?>arrival">New Arrival</a></li>
+				                    <li ><a href="<?=ROOT?>features">Features</a></li>
+				                    <li ><a href="<?=ROOT?>about">About us</a></li>
 				                    <li ><a href="<?=ROOT?>login">Login</a></li>
+				                    <li ><a href="<?=ROOT?>signUp">Sign Up</a></li>
+				                    <li ><a href="<?=ROOT?>upload">Upload</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
