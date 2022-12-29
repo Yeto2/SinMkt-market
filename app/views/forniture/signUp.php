@@ -1,8 +1,8 @@
 <?php $this-> view("forniture/header" , $data); ?>
 
-<div class="login-page">
+<div class="form-page">
+    <?php check_message() ?>
     <div class="form">
-        
     <form class="register-form" id="register" method="post">
         <input type="text" name="username" placeholder="name"/>
         <input type="password" name="password" placeholder="password"/>

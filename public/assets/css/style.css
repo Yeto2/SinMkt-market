@@ -968,7 +968,7 @@ span.feature-review {margin-left: 10px;}
 .form h4 {
     margin-bottom: 20px;
 }
-.login-page {
+.form-page {
     width: 360px;
     padding: 13% 0 0;
     margin: auto;
@@ -1007,6 +1007,9 @@ span.feature-review {margin-left: 10px;}
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
+    -moz-transition: all 0.3 ease;
+    -ms-transition: all 0.3 ease;
+    -o-transition: all 0.3 ease;
 }
 .form button:hover,.form button:active,.form button:focus {
     background: #f9bb62;
@@ -1021,4 +1024,33 @@ span.feature-review {margin-left: 10px;}
     text-decoration: none;
 }
 
-/*=========================================
+/*========================================= */
+.cntnt {
+    display: none;
+    background: #e99c2e7d;
+    width: 211px;
+    min-height: 145px;
+    position: absolute;
+    left: -115px;
+    padding: 10px;
+}
+.hida{
+    display: block !important;
+}
+.cntnt::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: inherit;
+    top: -32px;
+    right: 0;
+    border: 16px solid;
+    border-color: transparent transparent #e99c2e7d;
+}
+button.logout {
+    bottom: 0;
+    position: absolute;
+    color: #df0f0f;
+    font-weight: 500;
+    padding: 5px;
+}

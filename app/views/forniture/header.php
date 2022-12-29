@@ -80,6 +80,10 @@
 				                	</li><!--/.search-->
 				                	<li class="nav-setting">
 				                		<a href="#"><span class="lnr lnr-cog"></span></a>
+										<div class="cntnt"> 
+											<h4><?php echo "hello"." ".$_SESSION['user_name'] ?></h4>
+											<button class="logout">logout</button> 
+										</div>
 				                	</li><!--/.search-->
 				                    <li class="dropdown">
 				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
@@ -146,8 +150,11 @@
 				                    <li ><a href="<?=ROOT?>arrival">New Arrival</a></li>
 				                    <li ><a href="<?=ROOT?>features">Features</a></li>
 				                    <li ><a href="<?=ROOT?>about">About us</a></li>
-				                    <li ><a href="<?=ROOT?>login">Login</a></li>
-				                    <li ><a href="<?=ROOT?>signUp">Sign Up</a></li>
+									<?php if (!isset($_SESSION['user_name'])) {?>
+										<li ><a href="<?=ROOT?>login">Login</a></li>
+				                    	<li ><a href="<?=ROOT?>signUp">Sign Up</a></li>
+									<?php } ?>
+				                    
 				                    <li ><a href="<?=ROOT?>upload">Upload</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->

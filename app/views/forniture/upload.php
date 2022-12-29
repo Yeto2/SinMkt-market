@@ -1,7 +1,7 @@
 <?php $this-> view("forniture/header" , $data); ?>
 
         
-        <section class="login-page">
+        <section class="form-page">
 
             <div class="form">
                 <h4>Upload Image</h4>
