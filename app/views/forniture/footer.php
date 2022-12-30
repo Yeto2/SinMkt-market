@@ -40,7 +40,13 @@
 
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		
+		<script>
+			    let icon = document.querySelector('.nav-setting');
+				let droplist = document.querySelector('.cntnt');
+				icon.addEventListener('click',()=>{
+					droplist.classList.toggle("hida");
+				})
+		</script>
         
         <!--Custom JS-->
         <script src="<?=ASSETS?>js/custom.js"></script>

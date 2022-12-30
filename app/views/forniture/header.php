@@ -78,14 +78,16 @@
 				                	<li class="search">
 				                		<a href="#"><span class="lnr lnr-magnifier"></span></a>
 				                	</li><!--/.search-->
+									<?php if (isset($_SESSION['user_name'])) {?>
 				                	<li class="nav-setting">
 				                		<a href="#"><span class="lnr lnr-cog"></span></a>
 										<div class="cntnt"> 
 											<h4><?php echo "hello"." ".$_SESSION['user_name'] ?></h4>
-											<button class="logout">logout</button> 
+											<button class="logout"><a href="<?=ROOT?>logout">Logout</a></button> 
 										</div>
 				                	</li><!--/.search-->
-				                    <li class="dropdown">
+									<?php }?>
+									<li class="dropdown">
 				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
 				                            <span class="lnr lnr-cart"></span>
 											<span class="badge badge-bg-1">2</span>
@@ -153,9 +155,10 @@
 									<?php if (!isset($_SESSION['user_name'])) {?>
 										<li ><a href="<?=ROOT?>login">Login</a></li>
 				                    	<li ><a href="<?=ROOT?>signUp">Sign Up</a></li>
+									<?php }else {?>
+										<li ><a href="<?=ROOT?>upload">Upload</a></li>
 									<?php } ?>
 				                    
-				                    <li ><a href="<?=ROOT?>upload">Upload</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->

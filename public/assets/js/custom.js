@@ -108,8 +108,3 @@ $(document).ready(function(){
 
 
 
-  let icon = document.querySelector('.nav-setting');
-  let droplist = document.querySelector('.cntnt');
-  icon.addEventListener('click',()=>{
-    droplist.classList.toggle("hida");
-  })
