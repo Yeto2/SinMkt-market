@@ -2,7 +2,7 @@
 
         
         <section class="form-page">
-
+        <?php check_message() ?>
             <div class="form">
                 <h4>Upload Image</h4>
             <form method="post" enctype="multipart/form-data" name="contactForm" class="customform" method="post">
@@ -15,7 +15,7 @@
                 </div>
 
                 <div>
-                <textarea name="description" class="texterea" placeholder="Description" rows="3"></textarea>
+                <input name="price" class="subject" type="text" placeholder="Price" title="Price" required>
                 </div>
                 <div><button type="submit">Submit Button</button></div>
             </form>
