@@ -10,6 +10,7 @@ class Arrival extends Controller{
         $result = $products->get_all();
 
         $data["product"] = $result;
+        
         $this-> view("forniture/arrival" , $data);
     }
 

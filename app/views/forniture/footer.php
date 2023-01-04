@@ -46,6 +46,8 @@
 				icon.addEventListener('click',()=>{
 					droplist.classList.toggle("hida");
 				})
+
+				
 		</script>
         
         <!--Custom JS-->
